@@ -29,6 +29,15 @@ class InsertDataToUsers extends AbstractMigration
                 'first_name'    => 'Dan',
                 'last_name'     => 'Iel',
             ],
+            [
+                'username'      => 'Da Ni Elll',
+                'password'      => '123456',
+                'password_salt' => '123456',
+                'email'         => 'abc@abc.abc',
+                'age'           => '1',
+                'first_name'    => 'Elll',
+                'last_name'     => 'Da Ni',
+            ],
         ];
 
         return $rows;
